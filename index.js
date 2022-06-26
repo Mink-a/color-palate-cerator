@@ -21,7 +21,6 @@ renderPlates(DEFAULT_COLORS);
 
 getColorSchemeButton.addEventListener('click', () => {
   let mode = selectMode.value;
-  // console.log(mode);
   let colorsArr = [];
   const hex = inputColor.value.slice(1);
   fetch(
